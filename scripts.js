@@ -1,8 +1,8 @@
 //RESOURCES
-const resources = ["https://www.instagram.com/adelle.vvho/", "https://nu.edu.kz/academics/program/ba-in-languages-linguistics-and-literature", "https://www.youtube.com/watch?v=liyFKUFCQno", "https://en.wikipedia.org/wiki/Kazakh_literature", "https://www.youtube.com/channel/UCqUOcvbIXinAezsVdExGuOQ", "https://en.wikipedia.org/wiki/Dragon", "https://en.wikipedia.org/wiki/Bridge_of_Sighs"];
-function findResource(index){
-    alert ("Visit this page for more information:" + " " + resources[index])
-}
+//const resources = ["https://www.instagram.com/adelle.vvho/", "https://nu.edu.kz/academics/program/ba-in-languages-linguistics-and-literature", "https://www.youtube.com/watch?v=liyFKUFCQno", "https://en.wikipedia.org/wiki/Kazakh_literature", "https://www.youtube.com/channel/UCqUOcvbIXinAezsVdExGuOQ", "https://en.wikipedia.org/wiki/Dragon", "https://en.wikipedia.org/wiki/Bridge_of_Sighs"];
+//function findResource(index){
+//    alert ("Visit this page for more information:" + " " + resources[index])
+//}
 
 // NAVIGATION BUTTONS
 function navRight(){
