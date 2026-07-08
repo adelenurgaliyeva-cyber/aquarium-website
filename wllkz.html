@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Aquarium - WLL in KZ</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Flavors&family=Libre+Barcode+39&family=Press+Start+2P&family=Syne+Mono&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="beauty.css">
+        <script src="scripts.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    
+    <body>
+        <!--BACKGROUND-->
+        <div id="content" class="backgroundoverall">
+            <!--HEADER SCREEN-->
+            <header>
+                <h1>Aquarium</h1>
+                <div><img src="https://img1.picmix.com/output/stamp/normal/9/6/7/7/1277769_0050e.gif"></div>
+            </header>
+
+            <!--BANNER SCREEN-->
+            
+            <div class="banner_screen">
+                <button class="grayscale" onclick="toggleGrayscale()"><img src='https://blinkies.cafe/b/display/0197-gray.gif' alt='blinkies.cafe | grayscale'></button>
+                <button class="colorful" onclick="toggleInverted()"><img src='https://blinkies.cafe/b/display/0055-rainbowswirl.gif' alt='blinkies.cafe | colorful'></button>
+                <button class="connection" onclick="toggleConnected()"><img src='https://blinkies.cafe/b/display/0092-computerconnect.gif' alt='blinkies.cafe | connection'></button>
+                <button class="lavalamp" onclick="toggleFishes()"><img src='https://blinkies.cafe/b/display/0070-lavalamp.gif' alt='blinkies.cafe | fishdance'></button>
+                <button class="dark" onclick="toggleDark()"><img src='https://blinkies.cafe/b/display/0138-greenglow.gif' alt='blinkies.cafe | dark'></button>                <button class="aqua" onclick="filter"><img src='https://blinkies.cafe/b/display/0041-aquarius.gif' alt='blinkies.cafe | aqua'></button>
+                <button class="tumblr" onclick="filter"><a href="https://tmblrgir1.tumblr.com/" target="_blank"><img src='https://blinkies.cafe/b/display/0281-tumblrgrl.gif' alt='blinkies.cafe | tumblr'></a></button>
+                <button class="nyancat"><a href="https://www.youtube.com/watch?v=jIQ6UV2onyI&t=2s" target="_blank"><img src='https://blinkies.cafe/b/display/0206-nyancat.gif' alt='blinkies.cafe | nyancat'></a></button>
+            </div>
+            
+            <!--MAIN SCREEN-->
+            <div id="connection"></div>
+            <div id="fishdance"><video src="images/fishdance.mov" type="video/mp4" autoplay muted></video></div>
+
+            <main>
+                <div class="ms_title">
+                    <h1 onmouseenter="findResource([3])">WLL IN KAZAKHSTAN</h1>
+                </div>
+                <hr>
+                <div class="ms_wllinkz_text">
+                    <h6>Books Publishing in KZ</h6>
+                    <br>
+                    <p>The books publishing industry in Kazakhstan doesn't have the best numbers.</p>
+                    <h6>How many new books appear annually?</h6>
+                    <p>According to the Book Chamber, 266 publishers provided their book products in 2021. The majority are located in Almaty (152), Astana (30) and Karaganda (11).<br>In total, 5,017 new editions of books and brochures were registered. Of these, there are 2963 books in Kazakh, 1910 in Russian.<br>Most of them belong to scientific and educational publications and manuals – 3865 books. But 865 literary and artistic publications were published during the year, including 187 books of children's literature.</p>
+                    <br>
+                    <h6>What Are the Costs?</h6>
+                    <p>Alina Brovkina is the author of the book "Zyn. The secret of happiness in Shymkent" turned to the publishing house: there they were helped with the illustration, design, layout, the name was chosen and the print run was 1000 copies. All that was required from the author was approval at each stage of the preparation of the manuscript for publication. 
+                        It took a total of three months to prepare the book. That was the end of the publishing house's work. It cost the author about three million one hundred thousand tenge.</p>
+                </div>
+            </main>
+
+            <!--MUSIC SCREEN-->
+            <div class="music_screen" style="z-index: 1000;">
+                <iframe width="100vw" height="100vh" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/304369828&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+            <div class="music_player">
+                <h6>Press Song:</h6>
+                <p id="duvet" style="font-size: 2vw; color: rgb(66, 255, 201);">Duvet</p>
+            </div>
+
+            <!-- FEEDER -->
+            <div class="feeder_screen">
+                <form>
+                    <label for="food">Feed Shrimp:</label>
+                    <br>
+                    <input type="text" id="food" name="food" placeholder="Feeeed me >:(">
+                    <input type="button" onclick="foodChecker()" value="Submit">
+                </form>
+            </div>
+
+            <!--NAVIGATION SCREEN-->
+            <div class="navigation_screen">
+                <nav>
+                    <div class="navigation_top">
+                        <p class="menu">MENU</p>
+                    </div>
+                    <div class="navigation_pages">
+                        <button class="navigation_left" onclick="navLeft()"><img src="https://em-content.zobj.net/source/apple/419/left-arrow_2b05-fe0f.png" alt="navigation button left"></button>
+                        <button class="navigation_right" onclick="navRight()"><img src="https://em-content.zobj.net/source/apple/81/black-rightwards-arrow_27a1.png" alt="navigation button right"></button>
+                    </div>
+                    <div class="navigation_bottom">
+                        <ol id="navigation_one_page">
+                            <div class="navaboutme">
+                                <!--1 ABOUT ME -->
+                                <li><a href="aboutme.html"><div class="nava">ABOUT ME</div></a></li>
+                            </div>
+                            <div class="navacadem">
+                                <!--2 ACADEMICS -->
+                                <li><a href="academics.html"><div class="nava">ACADEMICS</div></a></li>
+                            </div>
+                            <div class="navexperience">
+                                <!--3 EXPERIENCE -->
+                                <li><a href="experience.html"><div class="nava">EXPERIENCE</div></a></li>
+                            </div>
+                            <div class="navwllkz">
+                                <!--4 WLL IN KZ -->
+                                <li><a href="wllkz.html"><div class="nava">WLL IN KZ</div></a></li>
+                            </div>
+                            <div class="navhobbies">
+                                <!--5 HOBBIES -->
+                                <li><a href="hobbies.html"><div class="nava">HOBBIES</div></a></li>
+                            </div>
+                            <div class="navfacts">
+                                <!--6 FACTS -->
+                                <li><a href="facts.html"><div class="nava">FACTS</div></a></li>
+                            </div>
+                        </ol>
+                        <ol id="navigation_two_page">
+                            <div class="navlandmark">
+                                <!--7 RESOURCES -->
+                                <li><a href="landmark.html"><div class="nava">LANDMARK</div></a></li>
+                            </div>
+                            <div class="empty">
+                                <!--8 EMPTY -->
+                                <li><div class="nava"></div></a></li>
+                            </div>
+                            <div class="empty">
+                                <!--9 EMPTY -->
+                                <li><div class="nava"></div></a></li>
+                            </div>
+                            <div class="empty">
+                                <!--10 EMPTY -->
+                                <li><div class="nava"></div></a></li>
+                            </div>
+                            <div class="empty">
+                                <!--11 EMPTY -->
+                                <li><div class="nava"></div></a></li>
+                            </div>
+                            <div class="empty">
+                                <!--12 EMPTY -->
+                                <li><div class="nava"></div></a></li>
+                            </div>
+                        </ol>
+                    </div>
+                </nav>
+            </div>
+
+            <!--DIV FOOTER-->
+
+            <div class="footer"></div>
+
+            <!--FOOTER-->
+
+            <footer>
+                <a href="https://youtu.be/rU0mLB-stU0?si=QbKJYigxh-g9ILs_" target="_blank"><img src="https://i.pinimg.com/originals/31/25/7c/31257c4186ebd704ae56b46e6e3058de.gif"></a>
+            </footer>
+        </div>
+    </body>
+</html>
