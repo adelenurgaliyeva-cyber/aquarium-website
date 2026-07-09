@@ -296,6 +296,7 @@ iframe{
     height: 30vh;
     width: 17.5vw;
     background-position: right;
+    background-position-y: 65vh;
     background-image: url(https://i.pinimg.com/originals/34/c0/d1/34c0d19c528865185b4839865651ae4b.gif);
     background-size: 100vw cover;
     border: 5px outset #d4edff;
