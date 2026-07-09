@@ -751,3 +751,29 @@ table[name="art"]{
 .ms_facts_text h6::after{
     content: " o_O";
 }
+
+/* LANDMARK ELEMENTS */
+.ms_landmark_text h2{
+    font-family: "Press Start 2P", serif;
+    font-size: 3vmin;
+    color: #1c9ec5;
+    text-shadow: 2px 2px 3px #8ffffd;
+    text-align: center;
+    font-size: 3vw;
+    text-align: center;
+    background-image: url("images/bridge.png");
+    background-size: 100%;
+    background-repeat: none;
+    background-position-x: -100vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+    padding-right: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-position: center;
+    background-position-y: -10vh;
+    border: 5px outset #d4edff;
+}
