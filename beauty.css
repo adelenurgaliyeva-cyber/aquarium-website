@@ -273,6 +273,7 @@ iframe{
     height: 30vh;
     width: 17.5vw;
     background-position: right;
+    background-position-y: 35vh;
     background-image: url(https://i.pinimg.com/originals/34/c0/d1/34c0d19c528865185b4839865651ae4b.gif);
     background-size: 100vw cover;
     border: 5px outset #d4edff;
@@ -331,11 +332,12 @@ input{
 @media screen and (max-width: 600px) {
     .feeder_screen{
         position: fixed;
-        margin-top: 82vh;
-        margin-left: 2vw;
-        height: 5vh;
-        width: 94vw;
+        margin-top: 22.5vh;
+        margin-left: 80.5vw;
+        height: 30vh;
+        width: 17.5vw;
         background-position: right;
+        background-position-y: 65vh;
         background-image: url(https://i.pinimg.com/originals/34/c0/d1/34c0d19c528865185b4839865651ae4b.gif);
         background-size: 100vw cover;
         border: 5px outset #d4edff;
@@ -549,8 +551,8 @@ footer img:active{
 div.ms_title{
     position: sticky;
     top: 0;
-    border: none;
-    background-color: #e2f2f0;
+    border: 5px outset #d4edff;
+    background-color: rgb(226, 242, 240, 0.5);
     overflow: auto;
 }
 .ms_title h1{
